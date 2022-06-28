@@ -9,7 +9,7 @@ default: &default
 
 development:
   <<: *default
-  url: "postgresql://postgres:postgres@localhost:5432/database_name"
+  database: db/development.sqlite3
 
 test:
   <<: *default
